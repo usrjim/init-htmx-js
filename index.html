@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/htmx.min.js"></script>
+  </head>
+  <body>
+    <button hx-get="components/alert.html" hx-target="#content">
+      Load Snippet with Script
+    </button>
+
+    <div id="content"></div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-display: block;
+  font-size-adjust: ex-height 0.53;
+}
+
+#content {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
